@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FREE Javascript Apps and Games - The Sweeping Developer</title>
+
+<link rel='stylesheet' href='style.css' id='styler'>
+
+
+</head>
+<body>
+
+<script src="programs\budget_js\budget.js"></script>
+<header id="myHeader"></header>
+<nav id="navBar"></nav>
+
+<article>
+
+<div id="programName"><h1>JavaScript Budget Calculator</h1></div>
+<p align="center"><a href="budget_instructions.html" target="new">Instructions</a></p>
+
+<hr>
+
+
+	<form name="budget">
+	<table id="fields" border=2 align="center" width="70%" background="pics/blue_background.png">
+		
+		<tr>
+			
+			<th colspan=4>
+			<div id="budgetname">
+			Budget for the 
+				<select>
+					<option>Year</option>
+					<option>Quarter</option>
+					<option>Month</option>
+					<option>Half-Month</option>
+					<option>Fortnight</option>
+					<option>Week</option>
+					<option>Day</option>
+				</select> 
+				</div>
+			</th>
+			
+		</tr>
+		<tr>
+			<th width="40%">Income Description</th>
+			<th width="20%">Amount</th>
+			<th width="40%" colspan=2>Frequency</th>
+		</tr>
+		<tr>
+			<td><input type="text" size="35"/></td>
+			<td><input type="text" size="5"/></td>
+			<td colspan=2>
+			<select>
+				<option>Year</option>
+				<option>Quarter</option>
+				<option>Month</option>
+				<option>Half-Month</option>
+				<option>Fortnight</option>
+				<option>Week</option>
+				<option>Day</option>
+			</select> </td>
+		</tr>
+		<tr>
+			<td><input type="text" size="35"/></td>
+			<td><input type="text" size="5"/></td>
+			<td colspan=2>
+			<select>
+				<option>Year</option>
+				<option>Quarter</option>
+				<option>Month</option>
+				<option>Half-Month</option>
+				<option>Fortnight</option>
+				<option>Week</option>
+				<option>Day</option>
+			</select> </td>
+		</tr>
+		<tr>
+			<td><input type="text" size="35" /></td>
+			<td><input type="text" size="5" /></td>
+			<td colspan=2>
+			<select>
+				<option>Year</option>
+				<option>Quarter</option>
+				<option>Month</option>
+				<option>Half-Month</option>
+				<option>Fortnight</option>
+				<option>Week</option>
+				<option>Day</option>
+			</select> </td>
+		</tr>
+		<tr>
+			<th colspan=4><div id="totalincome"></div></th>
+		</tr>
+		<tr>
+			<th>Expense Description</th>
+			<th>Amount/Percent</th>
+			<th>Mode/Round</th>
+			<th>Cash?</th>
+		</tr>
+		<tr>
+			<td><input type="text" size="35"/></td>
+			<td><input type="text" size="5"/></td>
+			<td><select>
+					<option>Dollars</option>
+					<option>Percent</option>
+				</select>
+				<input type="text" size="2" />
+			</td>
+			<td><input type="checkbox" onclick="changecash()" /></td>
+		</tr>		
+		<tr>
+			<td><input type="text" size="35"/></td>
+			<td><input type="text" size="5"/></td>
+			<td><select>
+					<option>Dollars</option>
+					<option>Percent</option>
+				</select>
+				<input type="text" size="2" />
+			</td>
+			<td><input type="checkbox" onclick="changecash()" /></td>
+		</tr>		
+		<tr>
+			<td><input type="text" size="35"/></td>
+			<td><input type="text" size="5"/></td>
+			<td><select>
+					<option>Dollars</option>
+					<option>Percent</option>
+				</select>
+				<input type="text" size="2" />
+			</td>
+			<td><input type="checkbox" onclick="changecash()" /></td>
+		</tr>		
+		<tr>
+			<td><input type="text" size="35"/></td>
+			<td><input type="text" size="5"/></td>
+			<td><select>
+					<option>Dollars</option>
+					<option>Percent</option>
+				</select>
+				<input type="text" size="2" />
+			</td>
+			<td><input type="checkbox" onclick="changecash()" /></td>
+		</tr>		
+		<tr>
+			<td><input type="text" size="35"/></td>
+			<td><input type="text" size="5"/></td>
+			<td><select>
+					<option>Dollars</option>
+					<option>Percent</option>
+				</select>
+				<input type="text" size="2" />
+			</td>
+			<td><input type="checkbox" onclick="changecash()" /></td>
+		</tr>		
+		<tr>
+			<td><input type="text" size="35"/></td>
+			<td><input type="text" size="5"/></td>
+			<td><select>
+					<option>Dollars</option>
+					<option>Percent</option>
+				</select>
+				<input type="text" size="2" />
+			</td>
+			<td><input type="checkbox" onclick="changecash()" /></td>
+		</tr>		
+		<tr>
+			<td><input type="text" size="35"/></td>
+			<td><input type="text" size="5"/></td>
+			<td><select>
+					<option>Dollars</option>
+					<option>Percent</option>
+				</select>
+				<input type="text" size="2" />
+			</td>
+			<td><input type="checkbox" onclick="changecash()" /></td>
+		</tr>		
+		<tr>
+			<td><input type="text" size="35"/></td>
+			<td><input type="text" size="5"/></td>
+			<td><select>
+					<option>Dollars</option>
+					<option>Percent</option>
+				</select>
+				<input type="text" size="2" />
+			</td>
+			<td><input type="checkbox" onclick="changecash()" /></td>
+		</tr>		
+		<tr>
+			<td><input type="text" size="35"/></td>
+			<td><input type="text" size="5"/></td>
+			<td><select>
+					<option>Dollars</option>
+					<option>Percent</option>
+				</select>
+				<input type="text" size="2" />
+			</td>
+			<td><input type="checkbox" onclick="changecash()" /></td>
+		</tr>		
+		<tr>
+			<td><input type="text" size="35"/></td>
+			<td><input type="text" size="5"/></td>
+			<td><select>
+					<option>Dollars</option>
+					<option>Percent</option>
+				</select>
+				<input type="text" size="2" />
+			</td>
+			<td><input type="checkbox" onclick="changecash()" /></td>
+		</tr>		
+		<tr>
+			<td><input type="text" size="35"/></td>
+			<td><input type="text" size="5"/></td>
+			<td><select>
+					<option>Dollars</option>
+					<option>Percent</option>
+				</select>
+				<input type="text" size="2" />
+			</td>
+			<td><input type="checkbox" onclick="changecash()" /></td>
+		</tr>		
+		<tr>
+			<td><input type="text" size="35"/></td>
+			<td><input type="text" size="5"/></td>
+			<td><select>
+					<option>Dollars</option>
+					<option>Percent</option>
+				</select>
+				<input type="text" size="2" />
+			</td>
+			<td><input type="checkbox" onclick="changecash()" /></td>
+		</tr>		
+		<tr>
+			<th colspan=4><div id="totalexpenses"></div></th>
+		</tr>
+		<tr>
+			<th colspan=4><div id="netincome"></div></th>
+		</tr>
+		<tr>
+			<th colspan=4><div id="cashout"></div></th>
+		</tr>
+		<tr>
+		    
+			<th colspan=4>
+			<div id="menu">
+			<p align="center">Name your file by clicking on the text box below.  Click "Save" to save that file.  Click "Choose File" (Chrome) or "Browse" (most others) to load a file.</p>
+					<p>
+						
+						  <input type="button" id="calc" value="Calculate" /> &#9642 
+						  <input type="button" id="clear" value="Clear" /> &#9642 
+						  <input style="width:90px" type="file" id="fileInput" value="Load" size="10" /> &#9642
+						  <input type="button" id="download" value="Save" /><input type="text" id="filename" value="filename"/> &#9642
+							Autocalc <input type="checkbox" id="autocalc" />
+					</p>
+			</div>
+			</th>
+		</tr>
+		
+	
+	</table>
+	</form>
+
+	
+	
+
+</article>
+
+
+<footer id="myFooter"></footer>
+<script src="elements.js"></script>
+
+</body>
+</html>
